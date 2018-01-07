@@ -7,7 +7,7 @@
     {{ Form::bsText('text') }}
     {{ Form::bsTextArea('body') }}
     {{ Form::bsText('due') }}
-    {{ Form::bsSubmit('Submit', ['class' => 'btn btn-danger btn-block'])}}
+    {{ Form::bsSubmit('Submit', ['class' => 'btn btn-danger  btn-lg btn-block'])}}
 {!! Form::close() !!}
 </div>
 @endsection
